@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Digital_Importer::first_level_demo"
+             title="Digital Importer"
+             module="Digital_Importer"
+             sortOrder="9999"
+             resource="Magento_Backend::content" />
+
+        <add id="Inchoo_MenuItem::second_level_demo"
+             title="Import"
+             module="Digital_Importer"
+             sortOrder="0"
+             action="importer/index/index"
+             parent="Digital_Importer::first_level_demo"
+             resource="Magento_Backend::content" />     
+    </menu>
+</config>
