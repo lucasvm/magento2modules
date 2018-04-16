@@ -8,7 +8,7 @@
              sortOrder="9999"
              resource="Magento_Backend::content" />
 
-        <add id="Inchoo_MenuItem::second_level_demo"
+        <add id="Digital_Importer::second_level_demo"
              title="Import"
              module="Digital_Importer"
              sortOrder="0"
