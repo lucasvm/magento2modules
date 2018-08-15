@@ -2,18 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Digital_Importer::first_level_demo"
-             title="Digital Importer"
-             module="Digital_Importer"
-             sortOrder="9999"
-             resource="Magento_Backend::content" />
-
-        <add id="Digital_Importer::second_level_demo"
-             title="Import"
-             module="Digital_Importer"
-             sortOrder="0"
-             action="importer/index/index"
-             parent="Digital_Importer::first_level_demo"
-             resource="Magento_Backend::content" />     
+        <add id="Digital_Importer::packadgeable" title="Digital Import" module="Digital_Importer" sortOrder="998" parent="Magento_Backend::stores" resource="Digital_Importer::packadgeable"/>
+		<add id="Digital_Importer::index" title="Import Feed" module="Digital_Importer" sortOrder="10" parent="Digital_Importer::packadgeable" action="importer/packadgeable" resource="Digital_Importer::index"/>
     </menu>
 </config>

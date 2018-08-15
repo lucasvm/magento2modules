@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+ 
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../
+../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="left">
+            <block class="Digital\Importer\Block\Adminhtml\Packadgeable\Edit\Tabs"
+                name="customerparadigm_maintenancemode_adjustsettings.edit.tabs"/>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Digital\Importer\Block\Adminhtml\Packadgeable\Edit"
+                name="digital_importer_Packadgeable.edit"/>
+        </referenceContainer>
+    </body>
+</page>
