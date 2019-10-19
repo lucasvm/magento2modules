@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Lansadigital_Importer::packadgeable" title="Lansadigital Import" module="Lansadigital_Importer" sortOrder="998" parent="Magento_Backend::stores" resource="Lansadigital_Importer::packadgeable"/>
+		<add id="Lansadigital_Importer::index" title="Import Feed" module="Lansadigital_Importer" sortOrder="10" parent="Lansadigital_Importer::packadgeable" action="importer/packadgeable" resource="Lansadigital_Importer::index"/>
+    </menu>
+</config>
