@@ -17,4 +17,5 @@ php bin/magento setup:static-content:deploy
 Porto Theme compatible.
 
 
-## Lansadigital.com
+## Lansadigital.com - Magento services.
+Lucas Ansalone.
